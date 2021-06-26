@@ -1,20 +1,5 @@
 import { nanoid } from 'nanoid';
 
-// HEAD DATA
-export const headData = {
-  title: 'Tyler Solosko Dev', // e.g: 'Name | Developer'
-  lang: 'en', // e.g: en, es, fr, jp
-  description: 'Testing', // e.g: Welcome to my website
-};
-
-// HERO DATA
-export const heroData = {
-  title: 'Web Developer',
-  name: 'Tyler Solosko',
-  subtitle: 'Welcome to my site',
-  cta: 'Learn More',
-};
-
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
@@ -29,29 +14,29 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    title: 'ASMRVIDEODB',
+    info: "A website displaying ASMR videos collected using Google's Youtube API and stored in a custom database along with video specific user generated data. This site allows users to better find and track videos that match their interests.",
+    info2: 'Built With: react.js, django rest framework, ant design.',
+    url: 'https://www.asmrvideodb.com',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    title: 'Achieve Family Therapy Neurofeedback',
+    info: "A single page website for Achieve Family Therapy's neurofeedback program.",
+    info2: 'Built With: HTML5, SASS, Javascript.',
+    url: 'https://www.neurofeedback.achievefamilytherapy.com/',
+    repo: 'https://github.com/TSolo315/Achieve-Family-Therapy-Neurofeedback', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    title: 'Mturk Guide',
+    info: "An informational website instructing visitors on how to better make money from home on Amazon's Mechanical Turk.",
+    info2: 'Built With: HTML5, SASS, Bulma.',
+    url: 'https://www.mturkguide.com',
+    repo: 'https://github.com/TSolo315/Mturk-Guide', // if no repo, the button will not show up
   },
 ];
 
