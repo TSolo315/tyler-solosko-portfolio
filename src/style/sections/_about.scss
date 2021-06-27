@@ -5,12 +5,14 @@
     $primary-color 0%,
     $secondary-color 100%
   );
-  color: rgb(27, 27, 27);
+  // background-color: $dark-blue-text;
+  // color: rgb(27, 27, 27);
+  color: $dark-blue-text;
   height: 100%;
   border-top: 0px;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
-  padding-bottom: 15%;
+  padding-bottom: 17.5%;
 
   @include respond(tab-land) {
     height: 100%;
@@ -30,6 +32,16 @@
     }
   }
 
+  .progress-text {
+    font-size: 105%;
+  }
+
+  .bg-custom-progress {
+    div.progress-bar {
+      background-color: $progress-color!important;
+    }
+  }
+
   .progress-divider {
     margin-top: 6rem;
   }
@@ -41,7 +53,7 @@
   }
 
   .progress-bar-2 {
-    height: 1.5rem;
+    height: 1.7rem;
   }
 
   .about-wrapper {
@@ -75,7 +87,7 @@
 
       &-text {
         text-align: left;
-        font-weight: 400;
+        font-weight: 500;
         font-size: 1.8rem;
 
         @include respond(tab-port) {
