@@ -46,7 +46,7 @@ const About = () => {
                     "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae."}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || "Lorem ipsum dolor sit, amet consectetur adipisicing elit."}
+                  {paragraphThree || "Lorem ipsum dolor sit, amet consectetur adipisicing elit asd asd asd asd asd asd asd asd asd."}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
@@ -71,7 +71,7 @@ const About = () => {
         <Row className="about-wrapper">
           <Fade bottom duration={1000} delay={600} distance="30px">
             <div className="progress-box">
-              <h3 className="pb-4 font-weight-bold">Primary</h3>
+              <h3 className="pb-4 font-weight-bold shadowed-text-title">Primary</h3>
               <h4 className="progress-text font-weight-bold">HTML</h4>
               <div className="mb-3">
                 <ProgressBar now={100} label="100%" className="progress-bar-2 bg-custom-progress" />
@@ -94,7 +94,7 @@ const About = () => {
               </div>
             </div>
             <div className="progress-box ml-5">
-              <h3 className="pb-4 font-weight-bold">Auxiliary</h3>
+              <h3 className="pb-4 font-weight-bold shadowed-text-title">Auxiliary</h3>
               <h4 className="progress-text font-weight-bold">SASS</h4>
               <div className="mb-3">
                 <ProgressBar now={100} label="100%" className="progress-bar-2 bg-custom-progress" />

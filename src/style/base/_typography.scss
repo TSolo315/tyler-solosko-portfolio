@@ -53,3 +53,11 @@ a:hover {
     transform: translateX(2px);
   }
 }
+
+.shadowed-text {
+  text-shadow: 0px 0px 1px rgb(39, 37, 37);
+}
+
+.shadowed-text-title {
+  text-shadow: 0px 0px .75px rgb(39, 37, 37);
+}
