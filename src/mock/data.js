@@ -3,9 +3,9 @@ import { nanoid } from 'nanoid';
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'Does this work',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne: 'I am a full stack web developer from Salt Lake City, Utah specializing in Django powered websites.',
+  paragraphTwo: 'I enjoy building websites that are fast, responsive, and intuitive. ',
+  paragraphThree: 'With an an insitance on quality, an eye for detail, and a persistance to reach the bottom of the problem -- I am the man for your next web development project.',
   resume: '', // if no resume, the button will not show up
 };
 
