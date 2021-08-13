@@ -4,6 +4,7 @@ import Hero from './Hero/Hero';
 import About from './About/About';
 import Projects from './Projects/Projects';
 import Contact from './Contact/Contact';
+import ContactForm from './Contact/ContactForm';
 import Footer from './Footer/Footer';
 
 import { PortfolioProvider } from '../context/context';
@@ -26,10 +27,6 @@ function App() {
     setFooter({ ...footerData });
   }, []);
 
-  // function afterOpenModal() {
-  //   subtitle.style.color = '#f00';
-  // }
-
   function closeModal() {
     setIsOpen(false);
   }
@@ -45,7 +42,8 @@ function App() {
       bottom: 'auto',
       marginRight: '-50%',
       transform: 'translate(-50%, -50%)',
-      // backgroundColor: 'rgba(255, 255, 255, 0.75)',
+      backgroundColor: '#0B172A',
+      padding: '40px',
     },
   };
 
@@ -57,7 +55,7 @@ function App() {
         style={customStyles}
         contentLabel="Contact Modal"
       >
-        asdasdasd
+        <ContactForm />
       </Modal>
       <Hero />
       <About />
