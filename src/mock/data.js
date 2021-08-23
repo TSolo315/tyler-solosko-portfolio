@@ -40,13 +40,6 @@ export const projectsData = [
   },
 ];
 
-// CONTACT DATA
-export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
-};
-
 // FOOTER DATA
 export const footerData = {
   networks: [

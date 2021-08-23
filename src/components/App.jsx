@@ -9,21 +9,19 @@ import Footer from './Footer/Footer';
 
 import { PortfolioProvider } from '../context/context';
 
-import { aboutData, projectsData, contactData, footerData } from '../mock/data';
+import { aboutData, projectsData, footerData } from '../mock/data';
 
 Modal.setAppElement('#___gatsby');
 
 function App() {
   const [about, setAbout] = useState({});
   const [projects, setProjects] = useState([]);
-  const [contact, setContact] = useState({});
   const [footer, setFooter] = useState({});
   const [modalIsOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
     setAbout({ ...aboutData });
     setProjects([...projectsData]);
-    setContact({ ...contactData });
     setFooter({ ...footerData });
   }, []);
 
@@ -43,12 +41,12 @@ function App() {
       marginRight: '-50%',
       transform: 'translate(-50%, -50%)',
       backgroundColor: '#0B172A',
-      padding: '40px',
+      padding: '44px',
     },
   };
 
   return (
-    <PortfolioProvider value={{ about, projects, contact, footer }}>
+    <PortfolioProvider value={{ about, projects, footer }}>
       <Modal
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
