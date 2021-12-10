@@ -19,9 +19,10 @@ const Header = () => {
 
   return (
     <section id="hero" className="jumbotron">
-      <Container>
+      <canvas className="hero-canvas" />
+      <Container className="hero-2">
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
-          <h1 className="hero-title">
+          <h1 className="hero-title unselectable">
             Web Developer
             <span className="text-color-main"> Tyler Solosko</span>
             <br />

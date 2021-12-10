@@ -5,7 +5,7 @@ export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: 'I am a full stack web developer from Salt Lake City, Utah specializing in Django powered websites.',
   paragraphTwo: 'I enjoy building websites that are fast, responsive, and intuitive. ',
-  paragraphThree: 'With an an insitance on quality, an eye for detail, and a persistance to reach the bottom of the problem -- I am the man for your next web development project.',
+  paragraphThree: 'With an an insistence on quality, an eye for detail, and a persistence to reach the bottom of the problem -- I am the man for your next web development project.',
   resume: '', // if no resume, the button will not show up
 };
 
