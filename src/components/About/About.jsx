@@ -74,46 +74,46 @@ const About = () => {
               <h3 className="pb-4 font-weight-bold shadowed-text-title">Primary</h3>
               <h4 className="progress-text font-weight-bold">HTML</h4>
               <div className="mb-3">
-                <ProgressBar now={100} label="100%" className="progress-bar-2 bg-custom-progress" />
+                <ProgressBar now={100} className="progress-bar-2 bg-custom-progress" />
               </div>
               <h4 className="progress-text font-weight-bold">CSS</h4>
               <div className="mb-3">
-                <ProgressBar now={95} label="95%" className="progress-bar-2 bg-custom-progress" />
+                <ProgressBar now={95} className="progress-bar-2 bg-custom-progress" />
               </div>
               <h4 className="progress-text font-weight-bold">Javascript</h4>
               <div className="mb-3">
-                <ProgressBar now={80} label="80%" className="progress-bar-2 bg-custom-progress" />
+                <ProgressBar now={80} className="progress-bar-2 bg-custom-progress" />
               </div>
               <h4 className="progress-text font-weight-bold">Python</h4>
               <div className="mb-3">
-                <ProgressBar now={80} label="80%" className="progress-bar-2 bg-custom-progress" />
+                <ProgressBar now={80} className="progress-bar-2 bg-custom-progress" />
               </div>
               <h4 className="progress-text font-weight-bold">SQL</h4>
               <div className="mb-3">
-                <ProgressBar now={75} label="75%" className="progress-bar-2 bg-custom-progress" />
+                <ProgressBar now={75} className="progress-bar-2 bg-custom-progress" />
               </div>
             </div>
             <div className="progress-box ml-5">
               <h3 className="pb-4 font-weight-bold shadowed-text-title">Auxiliary</h3>
               <h4 className="progress-text font-weight-bold">SASS</h4>
               <div className="mb-3">
-                <ProgressBar now={100} label="100%" className="progress-bar-2 bg-custom-progress" />
+                <ProgressBar now={100} className="progress-bar-2 bg-custom-progress" />
               </div>
               <h4 className="progress-text font-weight-bold">react.js</h4>
               <div className="mb-3">
-                <ProgressBar now={90} label="90%" className="progress-bar-2 bg-custom-progress" />
+                <ProgressBar now={90} className="progress-bar-2 bg-custom-progress" />
               </div>
               <h4 className="progress-text font-weight-bold">Django</h4>
               <div className="mb-3">
-                <ProgressBar now={90} label="90%" className="progress-bar-2 bg-custom-progress" />
+                <ProgressBar now={90} className="progress-bar-2 bg-custom-progress" />
               </div>
               <h4 className="progress-text font-weight-bold">Django Rest Framework</h4>
               <div className="mb-3">
-                <ProgressBar now={80} label="80%" className="progress-bar-2 bg-custom-progress" />
+                <ProgressBar now={80} className="progress-bar-2 bg-custom-progress" />
               </div>
               <h4 className="progress-text font-weight-bold">jQuery</h4>
               <div className="mb-3">
-                <ProgressBar now={80} label="80%" className="progress-bar-2 bg-custom-progress" />
+                <ProgressBar now={80} className="progress-bar-2 bg-custom-progress" />
               </div>
             </div>
             <div>
