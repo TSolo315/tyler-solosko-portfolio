@@ -1,4 +1,5 @@
 .cache
+.static
 package.json
 package-lock.json
 public
