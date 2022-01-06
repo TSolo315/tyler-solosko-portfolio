@@ -42,6 +42,7 @@ function App() {
       transform: 'translate(-50%, -50%)',
       backgroundColor: '#0B172A',
       padding: '44px',
+      width: '350px',
     },
   };
 
