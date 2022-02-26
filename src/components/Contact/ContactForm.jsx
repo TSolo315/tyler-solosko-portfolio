@@ -5,6 +5,7 @@ const ContactForm = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [feedback, setFeedback] = useState("");
 
   function onNameChange(e) {
     setName(e.target.value);
@@ -27,7 +28,19 @@ const ContactForm = () => {
     fetch('https://tylerportfoliocontact.tsolodev.workers.dev/', {
       method: 'POST',
       body: data,
-    }).then((res) => console.log(res.json()));
+    })
+      .then(() => {
+        setFeedback({ status: 'contact-success', message: 'Your message has been sent!' });
+        setName("");
+        setEmail("");
+        setMessage("");
+      })
+      .catch(() =>
+        setFeedback({
+          status: 'contact-error',
+          message: 'There was a prblem sending your message!',
+        })
+      );
   }
 
   return (
@@ -55,6 +68,7 @@ const ContactForm = () => {
           </Form.Label>
           <Form.Control as="textarea" rows={5} onChange={onMessageChange} value={message} />
         </Form.Group>
+        {feedback && <p className={feedback.status}>{feedback.message}</p>}
         <Button variant="primary" type="submit">
           Submit
         </Button>
