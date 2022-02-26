@@ -24,8 +24,10 @@ const ContactForm = () => {
     data.append('name', name);
     data.append('email', email);
     data.append('message', message);
-    // send data to worker then clear fields and write received message on success, or error message on fail.
-    // fetch('/api', { method: 'POST', body: data }).then((res) => res.json());
+    fetch('https://tylerportfoliocontact.tsolodev.workers.dev/', {
+      method: 'POST',
+      body: data,
+    }).then((res) => console.log(res.json()));
   }
 
   return (
