@@ -3,7 +3,7 @@ import { nanoid } from 'nanoid';
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'I am a web developer from Salt Lake City, Utah specializing in creating aesthetic, modern, and responsive websites.',
+  paragraphOne: 'I am a full stack web developer from Salt Lake City, Utah specializing in creating aesthetic, modern, and responsive websites.',
   paragraphTwo: 'Experienced in working with both back end (node/javascript, django/python) and front end (HTML, CSS, Javascript, react) systems -- I challenge myself to stay up to date with the latest technologies.  ',
   paragraphThree: 'I am driven, self-motivated, and enjoy tinkering to find the best way of getting things done.',
   resume: '', // if no resume, the button will not show up
