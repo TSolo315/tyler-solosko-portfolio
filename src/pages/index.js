@@ -13,7 +13,7 @@ export default () => {
         <title>Tyler Solosko Dev</title>
         <html lang="en" />
         <meta name="description" content="Tyler Solosko's Web Development Portfolio Website." />
-        <script src={withPrefix('fluidScript.js')} type="text/javascript" />
+        <script src={withPrefix('fluidScript.js')} type="text/javascript" defer />
       </Helmet>
       <App />
     </>
