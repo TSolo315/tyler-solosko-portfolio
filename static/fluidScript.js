@@ -1,3 +1,4 @@
+/* eslint-disable max-classes-per-file */
 /*
 MIT License
 
@@ -25,7 +26,7 @@ SOFTWARE.
 const canvas = document.getElementsByTagName('canvas')[0];
 resizeCanvas();
 
-let config = {
+const config = {
     SIM_RESOLUTION: 128,
     DYE_RESOLUTION: 1024,
     CAPTURE_RESOLUTION: 512,
@@ -53,7 +54,7 @@ let config = {
     SUNRAYS_WEIGHT: 1.0,
 }
 
-function pointerPrototype () {
+function pointerPrototype() {
     this.id = -1;
     this.texcoordX = 0;
     this.texcoordY = 0;
@@ -66,8 +67,8 @@ function pointerPrototype () {
     this.color = [30, 0, 300];
 }
 
-let pointers = [];
-let splatStack = [];
+const pointers = [];
+const splatStack = [];
 pointers.push(new pointerPrototype());
 
 const { gl, ext } = getWebGLContext(canvas);
